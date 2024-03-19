@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Hamd COLLGIATE </title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Utility.css">
+</head>
+<body>
+    
+    <!-- navbar started -->
+    <nav class="bg-white">
+        <div class="container">
+            <img id="logo" class="mt-2 m-4 " src="./assets/logo.JPG" alt="logo">
+            <h1 class="text-dark mt-4 m-l-2 head">AL-HAMD COLLGIATE</h1>
+        </div>
+    </nav>
+    <!-- navbar Ended -->
+
+    <!-- second navbar started -->
+
+    <ul class="d-flex justify-around bg-blue pad wrap">
+        <a href="./I.html" class="text-decoration text-white m-l">I</a>
+        <a href="./II.html" class="text-decoration text-white m-l">II</a>
+        <a href="./III.html" class="text-decoration text-white m-l">III</a>
+        <a href="./IV.html" class="text-decoration text-white m-l">IV</a>
+        <a href="./V.html" class="text-decoration text-white m-l">V</a>
+        <a href="./VI.html" class="text-decoration text-white m-l">VI</a>
+        <a href="./VII.html" class="text-decoration text-white m-l">VII</a>
+        <a href="./VIII.html" class="text-decoration text-white m-l">VIII</a>
+        <a href="./IX.html" class="text-decoration text-white m-l">IX</a>
+        <a href="./index.html" class="text-decoration text-white m-l">X</a>
+    </ul>
+
+    <!-- second navbar Ended -->
+
+   <!-- term side started -->
+   <div class="d-flex justify-evenly mt-5">
+    <a href="#" id="term">1st TERM</a>
+    <a href="#" id="term">2nd TERM</a>
+    <a href="#" id="term">3rd TERM</a>
+</div>
+<!-- term side Ended -->
+
+<!-- input side started -->
+<form id="marksForm">
+    <div class="d-flex justify-center mt-5">
+        <label for="subject1" class=" text-blue">Subject 1 Marks:</label>
+        <input type="number"  class="text-dark"  id="subject1" placeholder="enter your value" ><br />
+
+        <label for="subject2 "  class=" m-l text-blue">Subject 2 Marks:</label>
+        <input type="number" class="text-dark"  id="subject2" placeholder="enter your value" ><br />
+    </div>
+
+    <div class="d-flex justify-center mt-3">
+        <label for="subject3 " class="text-blue">Subject 3 Marks:</label>
+        <input type="number" class="text-dark"  id="subject3" placeholder="enter your value" ><br />
+
+        <label for="subject4 " class=" m-l text-blue">Subject 4 Marks:</label>
+        <input type="number" class="text-dark"  id="subject4" placeholder="enter your value" ><br />
+    </div>
+
+    <div class="d-flex justify-center mt-3">
+        <label for="subject5 " class="text-blue">Subject 5 Marks:</label>
+        <input type="number" class="text-dark"  id="subject5" placeholder="enter your value" ><br />
+
+        <label for="subject6 " class=" m-l text-blue">Subject 6 Marks:</label>
+        <input type="number" class="text-dark"  id="subject6" placeholder="enter your value" ><br />
+    </div>
+    <div class="d-flex justify-center mt-3">
+        <label for="subject7 " class="text-blue">Subject 7 Marks:</label>
+        <input type="number"  class="text-dark" id="subject7" placeholder="enter your value" >  <br />
+
+        <label for="subject8 " class=" m-l text-blue">Subject 8 Marks:</label>
+        <input type="number" class="text-dark"  id="subject8" placeholder="enter your value" ><br />
+      </div>  
+        <div class="d-flex justify-center mt-3">
+            <label for="subject9 " class=" m-l text-blue">Subject 9 Marks:</label>
+        <input type="number" class="text-dark"  id="subject9" placeholder="enter your value" ><br />
+        
+        <label for="subject10 " class=" m-l text-blue">Subject 10 Marks:</label>
+        <input type="number" class="text-dark"  id="subject10" placeholder="enter your value" ><br />
+        </div>
+        
+        <div class="d-flex justify-center mt-3">
+            <label for="subject11 " class=" m-l text-blue">Subject 11 Marks:</label>
+        <input type="number" class="text-dark"  id="subject11" placeholder="enter your value" ><br />
+        
+        <label for="subject12 " class=" m-l text-blue">Subject 12 Marks:</label>
+        <input type="number" class="text-dark"  id="subject12" placeholder="enter your value" ><br />
+        </div>
+    
+<div class="d-flex margin">
+    <button type="button" id="btn" class="text-dark" onclick="calculateMarksclass7()"> Calculate </button>
+</div>
+</form>
+<!-- input side ended -->
+
+<div id="result" class="d-flex justify-center text-dark"></div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
